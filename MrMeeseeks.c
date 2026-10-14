@@ -14,6 +14,9 @@ Entrega: 15 de Octubre, 2026*/
 #include <sys/wait.h>
 #include <time.h>
 #include <unistd.h>
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
 
 
 // Datos que se guardan de cada solicitud.
@@ -21,6 +24,7 @@ typedef struct {
     char solicitud[256];
     double segundos;
     int resuelta;
+    int tipo;
 } Registro;
 
 
@@ -32,8 +36,115 @@ static double tiempo(void) {
 }
 
 
+
+static int calcular(const char *entrada, char *salida, size_t n) {
+    // Lee los numeros y reconoce el operador con o sin espacios.
+    const char *p = entrada;
+    char *fin, op[4] = {0};
+    double a, b, r = 0;
+
+    while (isspace((unsigned char)*p)) p++;
+
+    // Operaciones que necesitan un solo numero.
+    if (*p == '!' || *p == '~') {
+        char signo = *p++;
+        a = strtod(p, &fin);
+        if (p == fin || !isfinite(a)) goto formato;
+        while (isspace((unsigned char)*fin)) fin++;
+        if (*fin) goto formato;
+
+        if (signo == '!') r = (a == 0);
+        else {
+            if (a != trunc(a) || a < INT_MIN || a > INT_MAX) goto entero;
+            r = ~(int)a;
+        }
+        snprintf(salida, n, "%.10g", r);
+        return 1;
+    }
+
+    a = strtod(p, &fin);
+    if (p == fin || !isfinite(a)) goto formato;
+    p = fin;
+    while (isspace((unsigned char)*p)) p++;
+
+    if (!strncmp(p, "xor", 3)) {
+        strcpy(op, "xor");
+        p += 3;
+    } else if (!strncmp(p, "**", 2) || !strncmp(p, "&&", 2) ||
+               !strncmp(p, "||", 2) || !strncmp(p, "==", 2) ||
+               !strncmp(p, "!=", 2) || !strncmp(p, ">=", 2) ||
+               !strncmp(p, "<=", 2) || !strncmp(p, "<<", 2) ||
+               !strncmp(p, ">>", 2)) {
+        op[0] = p[0];
+        op[1] = p[1];
+        p += 2;
+    } else if (*p && strchr("+-*/%^<>&|", *p)) {
+        op[0] = *p++;
+    } else goto formato;
+
+    while (isspace((unsigned char)*p)) p++;
+    b = strtod(p, &fin);
+    if (p == fin || !isfinite(b)) goto formato;
+    while (isspace((unsigned char)*fin)) fin++;
+    if (*fin) goto formato;
+
+    // Calcula operaciones aritmeticas, potencias y comparaciones.
+    if (!strcmp(op, "+")) r = a + b;
+    else if (!strcmp(op, "-")) r = a - b;
+    else if (!strcmp(op, "*")) r = a * b;
+    else if (!strcmp(op, "/") || !strcmp(op, "%")) {
+        if (b == 0) {
+            snprintf(salida, n, "Division por cero");
+            return 0;
+        }
+        r = !strcmp(op, "/") ? a / b : fmod(a, b);
+    } else if (!strcmp(op, "^") || !strcmp(op, "**")) r = pow(a, b);
+    else if (!strcmp(op, "==")) r = (a == b);
+    else if (!strcmp(op, "!=")) r = (a != b);
+    else if (!strcmp(op, ">")) r = (a > b);
+    else if (!strcmp(op, "<")) r = (a < b);
+    else if (!strcmp(op, ">=")) r = (a >= b);
+    else if (!strcmp(op, "<=")) r = (a <= b);
+    else if (!strcmp(op, "&&")) r = (a != 0 && b != 0);
+    else if (!strcmp(op, "||")) r = (a != 0 || b != 0);
+    else {
+        // Las operaciones de bits solo funcionan con enteros.
+        if (a != trunc(a) || b != trunc(b) || a < INT_MIN ||
+            a > INT_MAX || b < INT_MIN || b > INT_MAX) goto entero;
+
+        int x = (int)a, y = (int)b;
+        if (!strcmp(op, "&")) r = x & y;
+        else if (!strcmp(op, "|")) r = x | y;
+        else if (!strcmp(op, "xor")) r = x ^ y;
+        else if (!strcmp(op, "<<") || !strcmp(op, ">>")) {
+            if (x < 0 || y < 0 || y > 30 ||
+                (!strcmp(op, "<<") && (long long)x * (1LL << y) > INT_MAX)) {
+                snprintf(salida, n, "Desplazamiento no valido");
+                return 0;
+            }
+            r = !strcmp(op, "<<") ? (long long)x * (1LL << y) : x >> y;
+        }
+    }
+
+    if (!isfinite(r)) {
+        snprintf(salida, n, "Resultado no valido");
+        return 0;
+    }
+    snprintf(salida, n, "%.10g", r);
+    return 1;
+
+entero:
+    snprintf(salida, n, "Se necesitan numeros enteros");
+    return 0;
+formato:
+    snprintf(salida, n, "Formato incorrecto");
+    return 0;
+}
+
+
+
 int main(void) {
-    // Recibe solicitudes, crea un Meeseeks y guarda los resultados.
+    // Recibe solicitudes y crea un Meeseeks para atenderlas.
     setvbuf(stdout, NULL, _IONBF, 0);
     Registro historial[100];
     int total = 0;
@@ -43,9 +154,10 @@ int main(void) {
     // Muestra el menu hasta que el usuario se despida.
     puts("=== BOX DE MR. MEESEEKS ===");
     while (total < 100) {
-        printf("\n1) Solicitud textual\n0) Adios\nOpcion: ");
+        printf("\n1) Solicitud textual\n2) Calculo\n0) Adios\nOpcion: ");
         if (!fgets(linea, sizeof(linea), stdin) || atoi(linea) == 0) break;
-        if (atoi(linea) != 1) { puts("Opcion invalida"); continue; }
+        int tipo = atoi(linea);
+        if (tipo < 1 || tipo > 2) { puts("Opcion invalida"); continue; }
 
 
         // Lee la solicitud y elimina el salto de linea.
@@ -76,11 +188,18 @@ int main(void) {
             printf("[pid=%ld ppid=%ld] Resolviendo: %s\n",
                    (long)getpid(), (long)getppid(), tarea);
             fflush(stdout);
-            // Simula medio segundo de trabajo.
-            usleep(500000);
             int exito = 1;
-            printf("[pid=%ld ppid=%ld] Mision completa. Gracias! Desaparezco.\n",
-                   (long)getpid(), (long)getppid());
+            // Simula el texto o resuelve el calculo.
+            if (tipo == 1) usleep(500000);
+            else {
+                char salida[128];
+                exito = calcular(tarea, salida, sizeof(salida));
+                printf("[pid=%ld ppid=%ld] Calculo: %s\n",
+                       (long)getpid(), (long)getppid(), salida);
+            }
+            printf("[pid=%ld ppid=%ld] %s. Desaparezco.\n",
+                   (long)getpid(), (long)getppid(),
+                   exito ? "Mision completa. Gracias" : "Mision no completada");
             fflush(stdout);
             // Envia al padre si la tarea se completo o no.
             write(respuesta[1], &exito, sizeof(exito));
@@ -101,7 +220,7 @@ int main(void) {
 
 
         // Registra el resultado y el tiempo de esta tarea.
-        historial[total] = (Registro){.segundos = tiempo() - inicio, .resuelta = exito};
+        historial[total] = (Registro){.segundos = tiempo() - inicio, .resuelta = exito, .tipo = tipo};
         snprintf(historial[total].solicitud, sizeof(historial[total].solicitud), "%s", linea);
         total++;
         printf("Tarea %d: %s, %.3f segundos, 1 Meeseeks\n",
@@ -115,9 +234,3 @@ int main(void) {
                historial[i].resuelta ? "OK" : "FALLO", historial[i].segundos);
     return 0;
 }
-
-
-
-
-
-
