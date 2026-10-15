@@ -1,0 +1,17 @@
+# Ejecutable y archivos generados al compilar
+/meeseeks
+*.o
+*.out
+
+
+# Archivos temporales del editor y del sistema
+*~
+*.swp
+.DS_Store
+core
+core.*
+
+
+
+
+

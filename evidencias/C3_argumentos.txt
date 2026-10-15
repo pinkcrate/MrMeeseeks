@@ -1,0 +1,26 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: [pid=7169 ppid=7168] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7169, ppid=7168, N=1, i=1)
+[pid=7169 ppid=7168] Solicitud recibida por pipe: /bin/echo Hola Meeseeks
+Hola Meeseeks
+[pid=7169 ppid=7168] Resultado del programa: Codigo de salida: 0
+[pid=7169 ppid=7168] Mision resuelta. Gracias! Ahora desaparezco
+
+Tarea 1: COMPLETADA
+Solucion: pid=7169 ppid=7168 N=1 i=1 Codigo de salida: 0
+Meeseeks: 1 | Pico simultaneo: 1 | Tiempo real: 0.051 s | CPU sin pausas simuladas: 0.005813 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [OK] /bin/echo Hola Meeseeks | 0.051 s reales | 0.005813 s CPU | 1 Meeseeks
+Hasta luego!

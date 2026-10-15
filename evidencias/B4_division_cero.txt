@@ -1,0 +1,24 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: [pid=7155 ppid=7154] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7155, ppid=7154, N=1, i=1)
+[pid=7155 ppid=7154] Solicitud recibida por pipe: 8/0
+[pid=7155 ppid=7154] Resultado del calculo: Division por cero
+[pid=7155 ppid=7154] No fue posible completar la mision. Desaparezco
+
+Tarea 1: NO COMPLETADA
+Meeseeks: 1 | Pico simultaneo: 1 | Tiempo real: 0.050 s | CPU sin pausas simuladas: 0.000076 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [FALLO] 8/0 | 0.050 s reales | 0.000076 s CPU | 1 Meeseeks
+Hasta luego!

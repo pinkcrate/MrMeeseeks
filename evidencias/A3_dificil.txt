@@ -1,0 +1,97 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: Facilidad: 1) Elegir  2) Aleatoria: Valor de 0 a 100: Segundos de simulacion (0 = aleatorio 0.5..5): [pid=7085 ppid=7084] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7085, ppid=7084, N=1, i=1)
+[pid=7085 ppid=7084] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7085 ppid=7084] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7085 ppid=7084] No pude resolverla por mi cuenta (facilidad 20.00)
+[pid=7085 ppid=7084] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 20.00 -> 42.40)
+[pid=7086 ppid=7085] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7086, ppid=7085, N=2, i=1)
+[pid=7086 ppid=7085] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7086 ppid=7085] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7087 ppid=7085] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7087, ppid=7085, N=2, i=2)
+[pid=7087 ppid=7085] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7087 ppid=7085] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7089 ppid=7085] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7089, ppid=7085, N=2, i=4)
+[pid=7089 ppid=7085] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7089 ppid=7085] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7088 ppid=7085] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7088, ppid=7085, N=2, i=3)
+[pid=7088 ppid=7085] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7088 ppid=7085] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7090 ppid=7085] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7090, ppid=7085, N=2, i=5)
+[pid=7090 ppid=7085] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7090 ppid=7085] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7086 ppid=7085] No pude resolverla por mi cuenta (facilidad 42.40)
+[pid=7086 ppid=7085] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 42.40 -> 58.53)
+[pid=7090 ppid=7085] Cumpli la solicitud: Quiero ser feliz. Gracias por dejarme ayudar
+[pid=7090 ppid=7085] Mision resuelta. Gracias! Ahora desaparezco
+[pid=7089 ppid=7085] Cumpli la solicitud: Quiero ser feliz. Gracias por dejarme ayudar
+[pid=7089 ppid=7085] Mision resuelta. Gracias! Ahora desaparezco
+[pid=7088 ppid=7085] No pude resolverla por mi cuenta (facilidad 42.40)
+[pid=7088 ppid=7085] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 42.40 -> 58.53)
+[pid=7091 ppid=7086] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7091, ppid=7086, N=3, i=1)
+[pid=7091 ppid=7086] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7091 ppid=7086] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7093 ppid=7088] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7093, ppid=7088, N=3, i=2)
+[pid=7093 ppid=7088] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7093 ppid=7088] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7094 ppid=7088] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7094, ppid=7088, N=3, i=3)
+[pid=7094 ppid=7088] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7094 ppid=7088] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7092 ppid=7088] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7092, ppid=7088, N=3, i=1)
+[pid=7096 ppid=7088] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7096, ppid=7088, N=3, i=5)
+[pid=7092 ppid=7088] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7096 ppid=7088] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7096 ppid=7088] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7092 ppid=7088] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7095 ppid=7088] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7095, ppid=7088, N=3, i=4)
+[pid=7095 ppid=7088] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7095 ppid=7088] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7098 ppid=7086] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7098, ppid=7086, N=3, i=3)
+[pid=7098 ppid=7086] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7098 ppid=7086] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7099 ppid=7086] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7099, ppid=7086, N=3, i=4)
+[pid=7099 ppid=7086] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7099 ppid=7086] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7100 ppid=7086] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7100, ppid=7086, N=3, i=5)
+[pid=7100 ppid=7086] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7100 ppid=7086] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7087 ppid=7085] Cumpli la solicitud: Quiero ser feliz. Gracias por dejarme ayudar
+[pid=7087 ppid=7085] Mision resuelta. Gracias! Ahora desaparezco
+[pid=7085 ppid=7084] El Meeseeks 7087 encontro la solucion; aviso a sus hermanos
+[pid=7086 ppid=7085] Mi padre aviso que la mision termino. Cancelando mis hijos
+[pid=7091 ppid=7086] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7098 ppid=7086] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7099 ppid=7086] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7100 ppid=7086] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7088 ppid=7085] Mi padre aviso que la mision termino. Cancelando mis hijos
+[pid=7093 ppid=7088] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7094 ppid=7088] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7097 ppid=7086] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7097, ppid=7086, N=3, i=2)
+[pid=7097 ppid=7086] Solicitud recibida por pipe: Quiero ser feliz
+[pid=7097 ppid=7086] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7097 ppid=7086] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7095 ppid=7088] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7092 ppid=7088] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7096 ppid=7088] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7086 ppid=7085] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7088 ppid=7085] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7085 ppid=7084] Mision resuelta. Gracias! Ahora desaparezco
+
+Tarea 1: COMPLETADA
+Solucion: pid=7087 ppid=7085 N=2 i=2 
+Meeseeks: 16 | Pico simultaneo: 14 | Tiempo real: 1.056 s | CPU sin pausas simuladas: 0.004083 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [OK] Quiero ser feliz | 1.056 s reales | 0.004083 s CPU | 16 Meeseeks
+Hasta luego!

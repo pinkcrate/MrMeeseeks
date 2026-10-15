@@ -1,0 +1,321 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: Facilidad: 1) Elegir  2) Aleatoria: Valor de 0 a 100: Segundos de simulacion (0 = aleatorio 0.5..5): [pid=7104 ppid=7103] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7104, ppid=7103, N=1, i=1)
+[pid=7104 ppid=7103] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7104 ppid=7103] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7104 ppid=7103] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7104 ppid=7103] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7105 ppid=7104] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7105, ppid=7104, N=2, i=1)
+[pid=7105 ppid=7104] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7105 ppid=7104] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7106 ppid=7104] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7106, ppid=7104, N=2, i=2)
+[pid=7106 ppid=7104] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7106 ppid=7104] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7107 ppid=7104] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7107, ppid=7104, N=2, i=3)
+[pid=7107 ppid=7104] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7107 ppid=7104] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7109 ppid=7104] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7109, ppid=7104, N=2, i=5)
+[pid=7109 ppid=7104] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7109 ppid=7104] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7108 ppid=7104] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7108, ppid=7104, N=2, i=4)
+[pid=7108 ppid=7104] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7108 ppid=7104] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7106 ppid=7104] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7106 ppid=7104] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7108 ppid=7104] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7108 ppid=7104] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7109 ppid=7104] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7109 ppid=7104] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7111 ppid=7108] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7111, ppid=7108, N=3, i=1)
+[pid=7111 ppid=7108] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7111 ppid=7108] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7112 ppid=7108] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7112, ppid=7108, N=3, i=2)
+[pid=7112 ppid=7108] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7112 ppid=7108] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7114 ppid=7108] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7114, ppid=7108, N=3, i=3)
+[pid=7114 ppid=7108] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7113 ppid=7109] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7113, ppid=7109, N=3, i=1)
+[pid=7113 ppid=7109] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7113 ppid=7109] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7115 ppid=7108] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7115, ppid=7108, N=3, i=4)
+[pid=7115 ppid=7108] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7115 ppid=7108] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7116 ppid=7109] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7116, ppid=7109, N=3, i=2)
+[pid=7116 ppid=7109] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7116 ppid=7109] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7117 ppid=7108] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7117, ppid=7108, N=3, i=5)
+[pid=7117 ppid=7108] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7117 ppid=7108] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7118 ppid=7109] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7118, ppid=7109, N=3, i=3)
+[pid=7118 ppid=7109] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7118 ppid=7109] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7119 ppid=7109] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7119, ppid=7109, N=3, i=4)
+[pid=7119 ppid=7109] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7119 ppid=7109] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7120 ppid=7109] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7120, ppid=7109, N=3, i=5)
+[pid=7120 ppid=7109] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7120 ppid=7109] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7110 ppid=7106] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7110, ppid=7106, N=3, i=1)
+[pid=7110 ppid=7106] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7110 ppid=7106] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7122 ppid=7106] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7122, ppid=7106, N=3, i=3)
+[pid=7122 ppid=7106] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7122 ppid=7106] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7123 ppid=7106] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7123, ppid=7106, N=3, i=4)
+[pid=7123 ppid=7106] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7123 ppid=7106] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7124 ppid=7106] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7124, ppid=7106, N=3, i=5)
+[pid=7124 ppid=7106] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7124 ppid=7106] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7114 ppid=7108] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7107 ppid=7104] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7107 ppid=7104] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7121 ppid=7106] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7121, ppid=7106, N=3, i=2)
+[pid=7121 ppid=7106] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7121 ppid=7106] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7125 ppid=7107] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7125, ppid=7107, N=3, i=1)
+[pid=7125 ppid=7107] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7125 ppid=7107] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7126 ppid=7107] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7126, ppid=7107, N=3, i=2)
+[pid=7126 ppid=7107] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7126 ppid=7107] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7128 ppid=7107] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7128, ppid=7107, N=3, i=4)
+[pid=7127 ppid=7107] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7127, ppid=7107, N=3, i=3)
+[pid=7127 ppid=7107] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7127 ppid=7107] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7105 ppid=7104] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7105 ppid=7104] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7131 ppid=7105] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7131, ppid=7105, N=3, i=2)
+[pid=7131 ppid=7105] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7131 ppid=7105] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7132 ppid=7105] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7132, ppid=7105, N=3, i=3)
+[pid=7132 ppid=7105] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7132 ppid=7105] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7129 ppid=7107] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7129, ppid=7107, N=3, i=5)
+[pid=7129 ppid=7107] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7129 ppid=7107] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7105 ppid=7104] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7133, ppid=7105, N=3, i=4)
+[pid=7133 ppid=7105] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7133 ppid=7105] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7128 ppid=7107] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7128 ppid=7107] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7130 ppid=7105] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7130, ppid=7105, N=3, i=1)
+[pid=7130 ppid=7105] Solicitud recibida por pipe: Quiero pasar SO
+[pid=7130 ppid=7105] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7111 ppid=7108] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7111 ppid=7108] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7111 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7111 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7111 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7111 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7111 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7111 ppid=7108] No fue posible completar la mision. Desaparezco
+[pid=7112 ppid=7108] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7112 ppid=7108] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7112 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7112 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7112 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7112 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7112 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7112 ppid=7108] No fue posible completar la mision. Desaparezco
+[pid=7113 ppid=7109] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7113 ppid=7109] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7113 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7113 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7113 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7113 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7113 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7113 ppid=7109] No fue posible completar la mision. Desaparezco
+[pid=7115 ppid=7108] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7115 ppid=7108] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7115 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7115 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7115 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7115 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7115 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7115 ppid=7108] No fue posible completar la mision. Desaparezco
+[pid=7116 ppid=7109] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7116 ppid=7109] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7116 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7116 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7116 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7116 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7116 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7116 ppid=7109] No fue posible completar la mision. Desaparezco
+[pid=7117 ppid=7108] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7117 ppid=7108] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7117 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7117 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7117 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7117 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7117 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7117 ppid=7108] No fue posible completar la mision. Desaparezco
+[pid=7110 ppid=7106] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7110 ppid=7106] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7118 ppid=7109] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7118 ppid=7109] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7110 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7118 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7110 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7118 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7110 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7118 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7110 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7118 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7110 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7110 ppid=7106] No fue posible completar la mision. Desaparezco
+[pid=7118 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7118 ppid=7109] No fue posible completar la mision. Desaparezco
+[pid=7119 ppid=7109] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7119 ppid=7109] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7119 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7119 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7119 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7119 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7119 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7119 ppid=7109] No fue posible completar la mision. Desaparezco
+[pid=7120 ppid=7109] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7120 ppid=7109] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7120 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7120 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7120 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7120 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7120 ppid=7109] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7120 ppid=7109] No fue posible completar la mision. Desaparezco
+[pid=7122 ppid=7106] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7122 ppid=7106] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7122 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7122 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7122 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7122 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7122 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7122 ppid=7106] No fue posible completar la mision. Desaparezco
+[pid=7123 ppid=7106] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7123 ppid=7106] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7123 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7123 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7123 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7123 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7123 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7123 ppid=7106] No fue posible completar la mision. Desaparezco
+[pid=7124 ppid=7106] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7124 ppid=7106] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7124 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7124 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7124 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7124 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7124 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7124 ppid=7106] No fue posible completar la mision. Desaparezco
+[pid=7109 ppid=7104] No fue posible completar la mision. Desaparezco
+[pid=7114 ppid=7108] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7114 ppid=7108] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7114 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7114 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7114 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7114 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7114 ppid=7108] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7114 ppid=7108] No fue posible completar la mision. Desaparezco
+[pid=7121 ppid=7106] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7121 ppid=7106] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7121 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7121 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7121 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7121 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7121 ppid=7106] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7121 ppid=7106] No fue posible completar la mision. Desaparezco
+[pid=7108 ppid=7104] No fue posible completar la mision. Desaparezco
+[pid=7126 ppid=7107] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7126 ppid=7107] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7126 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7126 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7126 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7126 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7126 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7126 ppid=7107] No fue posible completar la mision. Desaparezco
+[pid=7125 ppid=7107] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7125 ppid=7107] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7125 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7125 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7125 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7125 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7125 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7125 ppid=7107] No fue posible completar la mision. Desaparezco
+[pid=7106 ppid=7104] No fue posible completar la mision. Desaparezco
+[pid=7127 ppid=7107] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7127 ppid=7107] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7127 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7127 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7127 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7127 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7127 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7127 ppid=7107] No fue posible completar la mision. Desaparezco
+[pid=7132 ppid=7105] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7132 ppid=7105] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7132 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7132 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7132 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7133 ppid=7105] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7133 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7133 ppid=7105] No fue posible completar la mision. Desaparezco
+[pid=7129 ppid=7107] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7129 ppid=7107] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7129 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7129 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7129 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7129 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7129 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7129 ppid=7107] No fue posible completar la mision. Desaparezco
+[pid=7130 ppid=7105] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7130 ppid=7105] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7132 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7130 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7132 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7132 ppid=7105] No fue posible completar la mision. Desaparezco
+[pid=7130 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7130 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7130 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7130 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7130 ppid=7105] No fue posible completar la mision. Desaparezco
+[pid=7128 ppid=7107] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7128 ppid=7107] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7128 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7128 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7128 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7128 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7128 ppid=7107] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7128 ppid=7107] No fue posible completar la mision. Desaparezco
+[pid=7131 ppid=7105] No pude resolverla por mi cuenta (facilidad 0.00)
+[pid=7131 ppid=7105] Necesito ayuda: intentare convocar a 5 Meeseeks (facilidad 0.00 -> 0.00)
+[pid=7131 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7131 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7131 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7131 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7131 ppid=7105] Limite de procesos alcanzado; no puedo convocar mas
+[pid=7131 ppid=7105] No fue posible completar la mision. Desaparezco
+[pid=7107 ppid=7104] No fue posible completar la mision. Desaparezco
+[pid=7105 ppid=7104] No fue posible completar la mision. Desaparezco
+[pid=7104 ppid=7103] No fue posible completar la mision. Desaparezco
+
+Tarea 1: NO COMPLETADA
+Meeseeks: 30 | Pico simultaneo: 30 | Tiempo real: 1.565 s | CPU sin pausas simuladas: 0.018103 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [FALLO] Quiero pasar SO | 1.565 s reales | 0.018103 s CPU | 30 Meeseeks
+Hasta luego!

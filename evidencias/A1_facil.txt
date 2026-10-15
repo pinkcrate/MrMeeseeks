@@ -1,0 +1,26 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: Facilidad: 1) Elegir  2) Aleatoria: Valor de 0 a 100: Segundos de simulacion (0 = aleatorio 0.5..5): [pid=7075 ppid=7074] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7075, ppid=7074, N=1, i=1)
+[pid=7075 ppid=7074] Solicitud recibida por pipe: Quiero un cafe frances
+[pid=7075 ppid=7074] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7075 ppid=7074] Cumpli la solicitud: Quiero un cafe frances. Gracias por dejarme ayudar
+[pid=7075 ppid=7074] Mision resuelta. Gracias! Ahora desaparezco
+
+Tarea 1: COMPLETADA
+Solucion: pid=7075 ppid=7074 N=1 i=1 
+Meeseeks: 1 | Pico simultaneo: 1 | Tiempo real: 0.502 s | CPU sin pausas simuladas: 0.000150 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [OK] Quiero un cafe frances | 0.502 s reales | 0.000150 s CPU | 1 Meeseeks
+Hasta luego!

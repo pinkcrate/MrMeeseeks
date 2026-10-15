@@ -1,0 +1,38 @@
+=== BOX DE MR. MEESEEKS ===
+Tiempo maximo: 300 segundos; limite de procesos: 30
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: Escriba su solicitud: Facilidad: 1) Elegir  2) Aleatoria: Facilidad aleatoria (uniforme): 62
+Segundos de simulacion (0 = aleatorio 0.5..5): [pid=7137 ppid=7136] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7137, ppid=7136, N=1, i=1)
+[pid=7137 ppid=7136] Solicitud recibida por pipe: Quiero viajar a Marte
+[pid=7137 ppid=7136] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7137 ppid=7136] No pude resolverla por mi cuenta (facilidad 62.00)
+[pid=7137 ppid=7136] Necesito ayuda: intentare convocar a 2 Meeseeks (facilidad 62.00 -> 72.64)
+[pid=7138 ppid=7137] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7138, ppid=7137, N=2, i=1)
+[pid=7138 ppid=7137] Solicitud recibida por pipe: Quiero viajar a Marte
+[pid=7138 ppid=7137] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7139 ppid=7137] Hi, I'm Mr. Meeseeks! Look at Meeeee. (pid=7139, ppid=7137, N=2, i=2)
+[pid=7139 ppid=7137] Solicitud recibida por pipe: Quiero viajar a Marte
+[pid=7139 ppid=7137] Intentare resolverla; simulacion de 0.500 segundos
+[pid=7138 ppid=7137] Cumpli la solicitud: Quiero viajar a Marte. Gracias por dejarme ayudar
+[pid=7138 ppid=7137] Mision resuelta. Gracias! Ahora desaparezco
+[pid=7137 ppid=7136] El Meeseeks 7138 encontro la solucion; aviso a sus hermanos
+[pid=7139 ppid=7137] La mision ya fue resuelta. Me despido y desaparezco
+[pid=7137 ppid=7136] Mision resuelta. Gracias! Ahora desaparezco
+
+Tarea 1: COMPLETADA
+Solucion: pid=7138 ppid=7137 N=2 i=1 
+Meeseeks: 3 | Pico simultaneo: 3 | Tiempo real: 1.005 s | CPU sin pausas simuladas: 0.001142 s
+
+1) Solicitud textual
+2) Calculo
+3) Programa externo
+0) Adios
+Opcion: 
+=== INFORME FINAL ===
+Total de tareas solicitadas: 1
+1) [OK] Quiero viajar a Marte | 1.005 s reales | 0.001142 s CPU | 3 Meeseeks
+Hasta luego!
